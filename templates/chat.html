@@ -2,4 +2,7 @@
 <input type="text" placeholder="Your text here..." ng-model="message.text">
 <button ng-click="send()">Send</button>
 <h4>Write your ideas...</h4>
+<div ng-repeat="message in chat">
+    <p>{{message.username}}: {{message.text}}</p>
+</div>
 <div></div>
