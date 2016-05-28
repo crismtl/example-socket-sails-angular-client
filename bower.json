@@ -1,0 +1,22 @@
+{
+  "name": "chatApp",
+  "authors": [
+    "Cristian <crissmtl@gmail.com>"
+  ],
+  "description": "Example of use websockets with SailsJs",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootswatch-dist": "yeti",
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.3.0"
+  }
+}
